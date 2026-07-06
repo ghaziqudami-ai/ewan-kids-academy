@@ -1,0 +1,1 @@
+async function loadQuestions(){const r=await fetch('../assets/data/letters.json');let q=await r.json();return q.sort(()=>Math.random()-0.5);} 
